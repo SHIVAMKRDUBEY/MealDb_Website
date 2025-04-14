@@ -1,0 +1,76 @@
+/* .bottom-div-main:hover {
+  box-shadow: 4px 5px 12px rgba(40, 178, 237, 0.779);
+  border: 3px double yellow;
+  border-start-end-radius: 40px;
+  border-start-start-radius: 40px;
+  shape-outside: 10px;
+} */
+
+.bottom-div {
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+  margin-left: 0.5%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 40px;
+  width: 99%;
+  background: lightyellow;
+  padding: 20px;
+  text-align: center;
+  /* shape-outside: 10px; */
+  outline: 2px solid rgb(36, 236, 36);
+  opacity: 0.8;
+}
+
+.div-about a {
+  margin: 20px;
+}
+
+.div-about a i {
+  /* height: 50px;
+  width: 50px;*/
+  size: 30px;
+
+}
+
+.mt-2 {
+  width: 98%;
+  /* margin-left: 1%; */
+}
+
+.mb-1 {
+  margin-top: -12px;
+}
+
+.bottom-div p,
+p b,
+p a {
+  background-color: lightyellow;
+  text-shadow: 1px 1px 2px rgb(193, 27, 27);
+  color: rgb(4, 97, 4);
+  font-weight: bolder;
+}
+
+.text-dark {
+  background: none;
+}
+
+
+.icon {
+  background-color: #000;
+  color: red;
+  font-size: x-large;
+  transition: transform 0.6s ease;
+  transform: translateZ(0);
+}
+
+.icon:hover {
+  transform: scale(1.5) translateZ(50px);
+}
+
+.text-whit {
+  background-color: lightpink;
+  color: #000;
+}
